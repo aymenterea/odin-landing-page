@@ -32,3 +32,12 @@ ul {
     list-style: none;
 }
 
+.hero {
+    display: flex;
+    padding: 50px 60px;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 500px;
+}
