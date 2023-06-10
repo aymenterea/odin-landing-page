@@ -75,6 +75,7 @@ ul {
     align-items: center;
     margin: 0;
     padding: 0;
+    margin-bottom: 30px;
 }
 .speakers {
     font-size: 36px;
@@ -100,4 +101,77 @@ ul {
 .gang {
     width: 200x;
     height: 200px;
+}
+
+.inspiration {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    max-width: 1000px;
+}
+
+.author {
+    font-size: 32px;
+    color: #1f2937;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.newsletter {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    gap: 500px;
+    padding: 30px 40px;
+}
+
+.text {
+    color: #e3e5e7;
+}
+
+.fomo {
+    font-weight: bold;
+}
+
+.join {
+    background-color: black;
+    border-radius: 15px;
+    color: #e3e5e7;
+    border-color: #e3e5e7;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.copyright {
+    color: #e3e5e7;
+    font-style: italic;
 }
